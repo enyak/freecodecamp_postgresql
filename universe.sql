@@ -24,7 +24,7 @@ DROP DATABASE universe;
 CREATE DATABASE universe WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE = 'en_US.UTF-8';
 
 
-ALTER DATABASE universe OWNER TO kim;
+ALTER DATABASE universe OWNER TO freecodecamp;
 
 \connect universe
 
